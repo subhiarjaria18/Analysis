@@ -81,16 +81,17 @@ For tree-based models like **Random Forest**, **XGBoost**, and **Gradient Boosti
 
 ## 📊 Model Comparison
 
-| Model | MSE | R² |
-|-------|-----|----|
-| Linear Regression | _To be filled_ | _To be filled_ |
-| ElasticNet | _To be filled_ | _To be filled_ |
-| Random Forest | _To be filled_ | _To be filled_ |
-| Gradient Boosting | _To be filled_ | _To be filled_ |
-| SVR | _To be filled_ | _To be filled_ |
-| XGBoost | _To be filled_ | _To be filled_ |
+| Model              | R²     | MSE    |
+|--------------------|--------|--------|
+| Linear Regression  | 0.93   | 84.65  |
+| ElasticNet         | 0.83   | 205.67 |
+| Random Forest      | 0.998  | 2.21   |
+| Gradient Boosting  | 0.996  | 4.81   |
+| SVR                | 0.61   | 477.15 |
+| XGBoost            | 0.997  | 3.17   |
 
-> **Best Model:** Based on lowest MSE and highest R², the best-performing model was identified to provide accurate predictions and meaningful insights.
+> ✅ **Best Model:** **Random Forest** achieved the lowest MSE (2.21) and highest R² (0.998), making it the most accurate and reliable predictor among all tested models.
+
 
 ---
 
